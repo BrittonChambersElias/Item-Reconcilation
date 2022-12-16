@@ -15,4 +15,4 @@ pip3 install tk
 pip3 install pandas
 ```
 
-<img src="app_imgs/homescreen.png" width="1000"/>
+<img src="app_imgs/homescreen.png" width="1100"/>
