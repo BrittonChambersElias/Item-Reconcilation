@@ -23,10 +23,9 @@ Load Large Database:
     - Pulls 50,000 entries from barcode_scan_events as well as mc_scan_events.
 
 ## Scan an Item
-## Scan Tile:   
-    - Scan tile device to find systematically correct envelope and master carton location.   
-## Scan Envelope:   
-    - Scan envelope to find systematically correct master carton location.   
-## Scan Master Carton:   
-    - Scan master carton to begin envelope validation process.
+- Scan tile device to find systematically correct envelope and master carton location.   
+   
+- Scan envelope to find systematically correct master carton location.   
+   
+- Scan master carton to begin envelope validation process.
 <img src="app_imgs/homescreen.png" width="1100"/>
