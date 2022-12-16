@@ -33,5 +33,7 @@ Load Large Database:
 <img src="app_imgs/homescreen.png" width="1100"/>
 
 # Order of Process
-First select a database, and wait for the loading to be finished
+First, select a database, and wait for the loading to be finished
 <img src="app_imgs/loadsmalldb.png" width="1100"/>
+Second, select `Scan an Item`, and scan either a tile, envelope, or master carton
+<img src="app_imgs/scanitem.png" width="1100"/>
