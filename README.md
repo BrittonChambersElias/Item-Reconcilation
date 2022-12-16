@@ -31,3 +31,7 @@ Load Large Database:
 ## Clear TextBox
 - Clears textbox entries
 <img src="app_imgs/homescreen.png" width="1100"/>
+
+# Order of Process
+First select a database, and wait for the loading to be finished
+<img src="app_imgs/loadsmall.png" width="1100"/>
