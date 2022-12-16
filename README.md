@@ -1,5 +1,5 @@
 # Tile
-Production Recap &amp; Tile Reconciliation
+Tile Reconciliation
 Installation
 Install the module with pip:
 
