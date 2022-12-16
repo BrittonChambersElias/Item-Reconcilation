@@ -34,4 +34,4 @@ Load Large Database:
 
 # Order of Process
 First select a database, and wait for the loading to be finished
-<img src="app_imgs/loadsmall.png" width="1100"/>
+<img src="app_imgs/loadsmalldb.png" width="1100"/>
