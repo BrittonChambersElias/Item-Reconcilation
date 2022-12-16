@@ -17,8 +17,10 @@ pip3 install pandas
 # Homescreen Interface
 
 ## Database Options
-Load Small Database: Pulls 5,000 entries from barcode_scan_events as well as mc_scan_events.   
-Load Large Database: Pulls 50,000 entries from barcode_scan_events as well as mc_scan_events.
+### Load Small Database:   
+    Pulls 5,000 entries from barcode_scan_events as well as mc_scan_events.   
+### Load Large Database:   
+    Pulls 50,000 entries from barcode_scan_events as well as mc_scan_events.
 
 ## Scan an Item
 Scan Tile: Scan tile device to find systematically correct envelope and master carton location.   
