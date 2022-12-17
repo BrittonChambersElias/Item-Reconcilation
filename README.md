@@ -27,7 +27,7 @@ Load Large Database:
    
 - `Scan envelope` to find systematically correct master carton location.   
    
-- `Scan master` carton to begin envelope validation process.  
+- `Scan master carton` to begin envelope validation process.  
 ## Clear TextBox
 - Clears textbox entries
 <img src="app_imgs/homescreen.png" width="1100"/>
