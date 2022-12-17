@@ -37,5 +37,8 @@ First, select a database, and wait for the loading to be finished
 <img src="app_imgs/loadsmalldb.png" width="1100"/>
 Second, select `Scan an Item`, and scan either a tile, envelope, or master carton
 <img src="app_imgs/scanitem.png" width="1100"/>
-Information regarding the correct envelope and masterpack will be posted in the history text box
-<img src="app_imgs/history.png" width="1100"/>
+Information regarding the correct envelope and masterpack will be posted in the history text box.  
+Scanning an envelope will have similar results.  
+Scanning a Master Pack will begin a different functionality.  
+<img src="app_imgs/mcscan.png" width="1100"/>
+# Master Pack Order of Process
