@@ -34,15 +34,15 @@ def smalldb():
     time_start = "["+(time.strftime('%a %H:%M:%S'))+"]"
     time_end = "["+(time.strftime('%a %H:%M:%S'))+"]"
     print(time_start+" running small")    
-    smalldb.df = pd.read_html('https://rfa.tile.hiveplatform.org/?cell_id=&page_size=5000&offset=0')[0]
-    smalldb.mc = pd.read_html('https://rfa.tile.hiveplatform.org/mc_pack_event?cell_id=&page_size=5000&offset=0')[0]
+    smalldb.df = pd.read_html('*')[0]
+    smalldb.mc = pd.read_html('*')[0]
     time_end = "["+(time.strftime('%a %H:%M:%S'))+"]"
     print(time_end+" finish small")   
 def largedb():
     time_start = "["+(time.strftime('%a %H:%M:%S'))+"]"
     print(time_start+" running large")
-    largedb.df = pd.read_html('https://rfa.tile.hiveplatform.org/?cell_id=&page_size=50000&offset=0')[0]
-    largedb.mc = pd.read_html('https://rfa.tile.hiveplatform.org/mc_pack_event?cell_id=&page_size=50000&offset=0')[0]
+    largedb.df = pd.read_html('*')[0]
+    largedb.mc = pd.read_html('*')[0]
     time_end = "["+(time.strftime('%a %H:%M:%S'))+"]"
     print(time_end+" finish large")
     
