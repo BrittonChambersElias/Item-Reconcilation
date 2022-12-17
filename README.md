@@ -48,3 +48,5 @@ Scan 1 envelope then press the `Validate Envelope` button at the bottom right.
 If the envelope id is green, then it belongs in the master carton.   
 If the envelope id is red, then pull it from the master carton. 
 <img src="app_imgs/validenv.png" width="1100"/>
+`Invalid`
+<img src="app_imgs/invalid.png" width="1100"/>
