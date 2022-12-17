@@ -44,3 +44,7 @@ Scanning a Master Pack will begin a different functionality.
 # Master Pack Order of Process
 After Scanning Master Carton ID, begin scanning envelopes inside that master carton in the search bar at the bottom.
 <img src="app_imgs/mcenvscan.png" width="1100"/>
+Scan 1 envelope then press the `Validate Envelope` button at the bottom right.   
+If the envelope id is green, then it belongs in the master carton.   
+If the envelope id is red, then pull it from the master carton. 
+<img src="app_imgs/validenv.png" width="1100"/>
