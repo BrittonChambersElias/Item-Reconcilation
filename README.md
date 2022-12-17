@@ -42,3 +42,5 @@ Scanning an envelope will have similar results.
 Scanning a Master Pack will begin a different functionality.  
 <img src="app_imgs/mcscan.png" width="1100"/>
 # Master Pack Order of Process
+After Scanning Master Carton ID, begin scanning envelopes inside that master carton in the search bar at the bottom.
+<img src="app_imgs/mcenvscan.png" width="1100"/>
