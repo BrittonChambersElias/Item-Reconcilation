@@ -163,25 +163,25 @@ class App(customtkinter.CTk):
                 try:
                     findTile_1 = df2.loc[df2['case_sn']==tile1]
                 except:
-                    self.textbox.insert("0.0","Couldn't find Tile: " +tile1+ " in Database\n\n")
+                    self.textbox.insert("0.0","Couldn't find Item: " +tile1+ " in Database\n\n")
                 
                 # Takes single oldest row
                 try:
                     findEnv = findTile_1.iloc[[-1]] 
                 except:
-                    self.textbox.insert("0.0",self.time_stamp + "\nCouldn't find Tile: " +tile1+ " in Database\n\n")
+                    self.textbox.insert("0.0",self.time_stamp + "\nCouldn't find Item: " +tile1+ " in Database\n\n")
                 
                 #If first envelope is null, get second envelope
                 if findEnv.isnull().values.any() == True: # Checking to see if the first envelope in list is empty
                     try:
                         findEnv = findTile_1.iloc[[-2]] # If first envelope in list is empty, grab the second to last envelope
                     except:
-                        self.textbox.insert("0.0","Run Envelope and Tile through QC \n")
+                        self.textbox.insert("0.0","Run Envelope and Item through QC \n")
                 #Grabing the envelope id as a string
                 try:
                     env1 = findEnv['envelope_id'].item()
                 except:
-                    self.textbox.insert("0.0",self.time_stamp + " NOTICE: Couldn't find envelope matching with Tile\n")
+                    self.textbox.insert("0.0",self.time_stamp + " NOTICE: Couldn't find envelope matching with Item\n")
                     
                 print("----------------------------------------------")
 
